@@ -29,3 +29,9 @@ console.log(typeof n1)
 console.log(typeof n2)
 console.log("----------------")
 console.log(str.split(" "))
+console.log("----------------")
+console.log(str.includes(gives))
+//STRINGS ARE IMMUTABLE
+let stry="acceptable"
+stry[2]="y"  //cannot happens try yourself
+console.log(stry)
